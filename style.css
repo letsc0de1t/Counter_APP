@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#number{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+#value{
+    font-size: 60px;
+   color: aquamarine;
+}
+
+
+.buttons{
+    height: 30px;
+    width: 100px;
+    font-size: larger;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    transition:all 400ms ease-in-out;
+}
+
+.buttons:active{
+    background-color: aqua;
+}
+
+
